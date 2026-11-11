@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Donation Website</title>
+</head>
+
+<body>
+    <main>
+        <h1>Book Donation Program</h1>
+        <p>Help us grow our library collection!</p>
+
+        <form>
+            <fieldset>
+                <legend>Donor Info</legend>
+
+                <label>Name:</label><br>
+                <input type="text" placeholder="Enter your name"><br><br>
+
+                <label>Email:</label><br>
+                <input type="text" placeholder="Enter your email"><br><br>
+
+                <label>Phone number:</label><br>
+                <input type="tel" placeholder="Enter your phone number">
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Book Info</legend>
+
+                <label>Book title:</label><br>
+                <input type="text" placeholder="Enter book title"><br><br>
+
+                <label>Author name:</label><br>
+                <input type="text" placeholder="Enter author full name"><br><br>
+
+                <label for="condition">Book condition:</label>
+
+                <select id="condition" name="condition">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="Mid">Mid</option>
+                    <option value="Poor">Poor</option>
+                </select><br><br>
+
+                <textarea rows="3" columns="5" placeholder="Comment(optional)"></textarea>
+            </fieldset>
+        </form><br><br>
+        <button>Donate</button>
+    </main>
+</body>
+
+</html>
